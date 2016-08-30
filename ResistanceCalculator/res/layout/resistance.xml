@@ -1,0 +1,69 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    tools:context="com.example.resistance.MainActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <Spinner
+    android:id="@+id/Spinner1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.25" />
+
+    <Spinner
+    android:id="@+id/Spinner2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.25" />
+
+    <Spinner
+    android:id="@+id/Spinner3"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.25" />
+
+    <Spinner
+    android:id="@+id/Spinner4"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.25" />
+	</TableRow>
+	
+	<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+	<TextView
+	    android:id="@+id/resultat"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:paddingTop="50dp"
+	    android:text="@string/resultatValue" >
+
+	    <requestFocus />
+	</TextView>
+	</TableRow>
+	
+	<TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+	<TextView
+	    android:id="@+id/resultatTolerance"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:ems="10"
+	    android:paddingTop="50dp"
+	    android:text="@string/resultatToleranceValue" >
+
+	    <requestFocus />
+	</TextView>	
+	</TableRow>
+</TableLayout>
